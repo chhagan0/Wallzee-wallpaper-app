@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/searchLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.adarsh.wallzee.search.SearchFragment">
+
+    <SearchView
+        android:id="@+id/SearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:autofillHints="name"
+        android:background="@drawable/edit_text_bg"
+        android:backgroundTint="#34046F9F"
+        android:iconifiedByDefault="false"
+        android:queryBackground="@color/transparent"
+        android:queryHint="search for wallpapers or ringtones" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btFilter"
+        style="@style/Widget.Material3.Button.IconButton.Outlined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:backgroundTint="@color/gray"
+        android:text="@string/filters"
+        android:textColor="@color/white"
+        app:icon="@drawable/baseline_filter_list_24"
+        app:iconGravity="end"
+        app:iconPadding="4dp"
+        app:iconTint="@color/white" />
+
+    <TextView
+        android:id="@+id/tvNoMatch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/no_matching_result_found_try_searching_for_something_awesome"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_loading_search"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottie_search" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_search_no_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottie_search_no_query" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/wallpaper_recycler_view_item" />
+
+</LinearLayout>
+

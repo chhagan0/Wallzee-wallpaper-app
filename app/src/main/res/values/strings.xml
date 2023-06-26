@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">wallzee</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="email">Email</string>
+    <string name="password_required">Password required</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="sign_in_with_email">Sign in with Email</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="continue_as_guest">Continue as guest</string>
+    <string name="or">or</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register_now"> Register now</string>
+    <string name="channel_id">HEADS_UP_NOTIFICATION</string>
+    <string name="search">Search</string>
+    <string name="wallpapers_for_you">Wallpapers for you</string>
+    <string name="explore">Explore</string>
+    <string name="creators_at_rise">Creators at rise</string>
+    <string name="live_wallpapers">Live wallpapers</string>
+    <string name="trending_categories">Trending categories</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_to_wallzee">New to Wallzee?</string>
+    <string name="web_client_id">1093951638756-t3ul3ro54d2tcmcds6fassrbkvllba3n.apps.googleusercontent.com</string>
+    <string name="upload_wallpaper">Upload Wallpaper</string>
+    <string name="preview">Preview</string>
+    <string name="upload">Upload</string>
+    <string name="category">category</string>
+    <string name="upload_wallpaper1">Upload Wallpaper</string>
+    <string name="name">Name</string>
+    <string name="profile">Profile</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="social_link_instagram_facebook_etc">Social link(Instagram,Facebook etc)</string>
+    <string name="home">Home</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="live">Live</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+    <string name="add_to_favourites">add to favourites</string>
+    <string name="download">download</string>
+    <string name="share_wallpaper">share wallpaper</string>
+    <string name="wallpaper_name">Wallpaper name</string>
+    <string name="_999">999</string>
+    <string name="_1000_kb">1000 kb</string>
+    <string name="_10_12_22">10/12/22</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="categories_array">
+        <item>3D</item>
+        <item>Abstract</item>
+        <item>Ai</item>
+        <item>Amoled</item>
+        <item>Animals</item>
+        <item>Anime</item>
+        <item>Architecture</item>
+        <item>Art</item>
+        <item>Artist</item>
+        <item>Bikes</item>
+        <item>Birds</item>
+        <item>Black/Dark</item>
+        <item>Cars</item>
+        <item>Cartoons</item>
+        <item>Celebrations</item>
+        <item>Celebrities</item>
+        <item>City</item>
+        <item>Creative</item>
+        <item>Cute</item>
+        <item>Fantasy</item>
+        <item>Flowers</item>
+        <item>Food</item>
+        <item>Funny</item>
+        <item>Games</item>
+        <item>Girls</item>
+        <item>God</item>
+        <item>Gradients</item>
+        <item>Holidays</item>
+        <item>Lifestyle</item>
+        <item>Logo</item>
+        <item>Love</item>
+        <item>Men</item>
+        <item>Military</item>
+        <item>Minimalist</item>
+        <item>Movies</item>
+        <item>Music</item>
+        <item>Nature</item>
+        <item>Other</item>
+        <item>People</item>
+        <item>Photography</item>
+        <item>Quotes</item>
+        <item>Sci-Fi</item>
+        <item>Space</item>
+        <item>Sports</item>
+        <item>Superheroes</item>
+        <item>Technology</item>
+        <item>Textures</item>
+        <item>Tv Shows</item>
+        <item>Vector</item>
+        <item>World</item>
+    </string-array>
+
+    <string-array name="genres_array">
+        <item>Abstract</item>
+        <item>Amoled</item>
+        <item>Anime</item>
+        <item>Games</item>
+        <item>Minimal</item>
+        <item>Nature</item>
+        <item>Series</item>
+        <item>Movies</item>
+        <item>Sports</item>
+        <item>Stock</item>
+    </string-array>
+
+    <string name="set_to_home_screen">Set to home screen</string>
+    <string name="set_to_lock_screen">Set to lock screen</string>
+    <string name="set_to_both_screen_s">Set to both screen\'s</string>
+    <string name="close">Close</string>
+    <string name="crop_snd_set_wallpaper">Crop snd set wallpaper</string>
+
+    <string name="supporting_text">If you believe that your content has been used in a way that constitutes an infringement of your rights, please notify WallByte’s designated agent for complaints at sivacbrf2@gmail.com by sending a Notice and Take down Report, which must include the following important information: * A description of the matter claimed to have been infringed * The title(s) and artist(s) of the image(s) as they show on WallByte * Your address, telephone number, and email address * An electronic or physical signature of the person authorized to act on behalf of the owner of the relevant image(s)</string>
+    <string name="explore_ringtones">Explore Ringtones</string>
+    <string name="favourites">Favourites</string>
+    <string name="filters">Filters</string>
+    <string name="creators">Creators</string>
+    <string name="no_matching_result_found_try_searching_for_something_awesome">No matching result found!Try searching for something awesome..</string>
+    <string name="banner">banner</string>
+    <string name="minimize">minimize</string>
+    <string name="submit">Submit</string>
+    <string name="creator_profile">creator Profile</string>
+    <string name="menu">menu</string>
+    <string name="sign_out">Sign out</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="is_verified">is verified</string>
+    <string name="verified">verified</string>
+    <string name="get_verified">Get Verified</string>
+    <string name="let_s_you_in">Let\'s you in</string>
+    <string name="logo">logo</string>
+    <string name="follow">Follow</string>
+    <string name="trending_wallpapers">Trending Wallpapers</string>
+    <string name="sort_by">Sort by</string>
+    <string name="new_to_old">New to Old</string>
+    <string name="trending">Trending</string>
+    <string name="popularity">Popularity</string>
+    <string name="follow_us_on_instagram">Follow us on Instagram</string>
+    <string name="play">Play</string>
+
+</resources>

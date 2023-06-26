@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    tools:context=".fullscreen.SetWallpaperBottomSheet">
+
+    <TextView
+        android:id="@+id/tvSetToHomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="8dp"
+        android:text="@string/set_to_home_screen"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSetToLockScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="8dp"
+        android:text="@string/set_to_lock_screen"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSetToBothScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="8dp"
+        android:text="@string/set_to_both_screen_s"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCropAndSetWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="8dp"
+        android:text="@string/crop_snd_set_wallpaper"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCloseBottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="8dp"
+        android:text="@string/close"
+        android:textSize="18sp" />
+
+</LinearLayout>

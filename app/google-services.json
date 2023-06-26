@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1093951638756",
+    "project_id": "walzee",
+    "storage_bucket": "walzee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093951638756:android:f30b0741d01b37636730f1",
+        "android_client_info": {
+          "package_name": "com.adarsh.walzee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093951638756-g6m64cbrjprmh9fj7ammj7r5bq2egn84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adarsh.walzee",
+            "certificate_hash": "e8a69afbc90bae6e0f2ef8e45c31bdc5c7a4817d"
+          }
+        },
+        {
+          "client_id": "1093951638756-t3ul3ro54d2tcmcds6fassrbkvllba3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCma6aDJbWTT6HPKTxW6Djk1icdRP8j4CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093951638756-fhk4kmg6h2rjetq4sfroop9rbpkmf0h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
